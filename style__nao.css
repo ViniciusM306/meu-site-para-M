@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@400;500&family=Sacramento&family=Yatra+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+
+.apresentacao {
+    padding: 5% 15%;
+    justify-content: space-between;
+    display: flex;
+   
+}
+
+.apresentacao__conteudo{
+    display: flex; 
+    width: 615px;
+    flex-direction: column;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    padding: 15px;
+    color: #D37DFF;
+}
+
+.apresentacao__conteudo__texto{
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+    color: #D37DFF;
+}
+
+
+.apresentacao__botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apresentacao__botao__titulo {
+    color: #D37DFF;
+    padding: 25px;
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+} 
+
+.apresentacao__botao__navegar__clicavel{
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+    color: #D37DFF;
+    border: groove 2px #D37DFF;
+    border-radius: 15px;
+}
+
+.rodape{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Yatra One', cursive; 
+    background-color: aqua;
+    color: #000000;
+    font-size: 15px;
+}
+
